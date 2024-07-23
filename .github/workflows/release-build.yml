@@ -85,3 +85,4 @@ jobs:
           prerelease: ${{ github.ref == 'refs/heads/main' || github.ref == 'refs/heads/develop' }}
           draft: false
           generate_release_notes: true
+
